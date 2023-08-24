@@ -1,0 +1,19 @@
+{
+  "contatos": [
+    {
+      "nome": "Vitor",
+      "numero": "47 999112233",
+      "id": 1
+    },
+    {
+      "nome": "Gabriel",
+      "numero": "47 999112244",
+      "id": 2
+    },
+    {
+      "nome": "Marcelo",
+      "numero": "47 999112255",
+      "id": 3
+    }
+  ]
+}

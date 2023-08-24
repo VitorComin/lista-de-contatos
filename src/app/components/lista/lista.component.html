@@ -1,0 +1,22 @@
+<po-container class="container">
+  <h1 class="title">Adicionar novo contato:</h1>
+  <br>
+  <po-input name="input" p-label="Nome:" [p-maxlength]=30 p-icon="po-icon-user" [(ngModel)]="nome"> </po-input>
+  <po-input name="input" p-label="Número:" [p-maxlength]=14 p-icon="po-icon-telephone" [(ngModel)]="numero"></po-input>
+  <div class="button-container">
+    <po-button class="add" p-icon="po-icon-plus" p-label="Adicionar" (p-click)="adicionar()" p-kind="primary"> </po-button>
+  </div>
+</po-container>
+<br>
+<po-list-view
+  p-property-title="nome"
+  [p-items]="contatos">
+  <ng-template p-list-view-content-template let-contato>
+    <div class="po-row parent">
+      <po-info class="po-md-12" p-label="Telefone" [p-value]="contato.numero"></po-info>
+      <div class="button-container-ex">
+        <po-button class="excluir" p-icon="po-icon-close" p-label="Excluir" (p-click)="excluir(contato.id)" p-kind="secondary"> </po-button>
+      </div>
+    </div>
+  </ng-template>
+</po-list-view>

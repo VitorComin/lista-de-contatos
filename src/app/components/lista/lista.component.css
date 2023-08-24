@@ -1,0 +1,24 @@
+.title {
+  font-size: large;
+  color: #4a5c60;
+}
+
+.container {
+  display: flex;
+}
+
+.button-container {
+  margin-top: auto;
+  text-align: right;
+}
+
+.parent {
+  position: relative;
+}
+
+.button-container-ex {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Ajusta para centralizar completamente o botão, em conjunto com o top */
+  right: 1%;
+}
