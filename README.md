@@ -1,3 +1,5 @@
-# AgendaDeContatos
+# Agenda De Contatos
 
-Uma Agenda de Contatos utilizando Angular, Json-server e PO UI.
+Projeto Angular utilizando FakeAPI e biblíoteca PO UI.
+
+
