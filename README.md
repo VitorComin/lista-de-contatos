@@ -1,6 +1,6 @@
 # Agenda De Contatos
 
-Projeto **Angular** utilizando **FakeAPI** e biblíoteca **PO UI**. Uma Agenda de Contatos Web onde é possível adicionar contatos novos e excluir-los.
+Projeto **Angular** utilizando **FakeAPI** e biblioteca **PO UI**. Uma Agenda de Contatos Web onde é possível adicionar contatos novos e excluí-los.
 
 ![image](https://github.com/VitorComin/listaDeContatos/assets/106283734/2c8f4fa8-3ac9-448b-a1ac-7c88c1942ee7)
 
